@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://apify.com"><img src="https://img.shields.io/badge/Powered%20by-Apify-20A34E?style=for-the-badge" alt="Powered by Apify"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-555555?style=for-the-badge" alt="Apache 2.0"></a>
-  <a href="#skills"><img src="https://img.shields.io/badge/Skills-5-246DFF?style=for-the-badge" alt="5 Skills"></a>
+  <a href="#skills"><img src="https://img.shields.io/badge/Skills-6-246DFF?style=for-the-badge" alt="6 Skills"></a>
   <a href="https://apify.com/store"><img src="https://img.shields.io/badge/Actors-30%2C000%2B-F86606?style=for-the-badge" alt="30,000+ Actors"></a>
   <a href="https://mcp.apify.com/"><img src="https://img.shields.io/badge/MCP-Compatible-15C1E6?style=for-the-badge" alt="MCP Compatible"></a>
   <a href="https://github.com/apify/agent-skills/stargazers"><img src="https://img.shields.io/github/stars/apify/agent-skills?style=for-the-badge&color=9D97F4&label=Stars" alt="GitHub stars"></a>
@@ -38,6 +38,7 @@ Drop these skills into Claude Code, Cursor, Windsurf, Codex, or Gemini CLI and y
 - **Scrape any site** - built-in Actor selection across the major social, search, maps, real estate, and review platforms (Instagram, Facebook, TikTok, YouTube, X, LinkedIn, Google Maps, Reddit, Yelp, Airbnb, and more), 130+ curated Actors, plus automatic fallback to the full [Apify Store](https://apify.com/store) of 30,000+ Actors for everything else.
 - **Build new Actors** - generate, debug, and deploy serverless Actors in JavaScript, TypeScript, or Python with the official SDK patterns.
 - **Actorize existing code** - wrap any script, library, or CLI tool as a runnable Actor with proper input and output handling.
+- **Run Actors locally** - push, run, and debug Actors on a local Apify platform in one container, with no platform compute and no cloud account changes.
 - **Integrate Apify into your product** - build an official Apify integration for a workflow-automation app (Zapier/n8n-style), an AI agent harness plugin, an AI framework package (LangChain/LlamaIndex-style), or a direct application client via `apify-client` or the REST API.
 
 > Looking for community-built, domain-specific skills (lead generation, brand monitoring, competitor intel, and more)? See [apify/awesome-skills](https://github.com/apify/awesome-skills).
@@ -66,6 +67,7 @@ That's it. The skill handles Actor selection, input shaping, run management, and
 | **[`apify-actor-development`](skills/apify-actor-development/)** | Create, debug, and deploy Apify Actors from scratch in JavaScript, TypeScript, or Python. Also generates or updates input and output schemas (`input_schema.json`, `dataset_schema.json`, `output_schema.json`, `key_value_store_schema.json`) from existing Actor source. Bundled references cover `actor.json`, README, logging, and standby mode. |
 | **[`apify-actorization`](skills/apify-actorization/)** | Convert existing code into Apify Actors. Supports the JS/TS SDK, the Python async context manager, and a generic CLI wrapper for any other language. |
 | **[`apify-integration-development`](skills/apify-integration-development/)** | Design and build an official Apify integration for a company's product. Covers workflow-automation apps (Zapier/n8n-style), AI agent harness plugins (OpenClaw/Hermes-style), AI framework packages (LangChain/LlamaIndex-style), and direct application clients via `apify-client` or REST - with per-category capability matrices and definition-of-done checklists. |
+| **[`actor-runtime`](skills/actor-runtime/)** | Test and develop Actors on the [local Actor runtime](https://docs.apify.com/platform/actors/development/local-runtime) - a local Apify platform in one container - instead of the cloud. Installs the runtime through the Apify CLI, then loads the runtime's own version-matched skill with `apify runtime skill` for the dev loop, IDE debugging, browser view, Standby, migrations, and pricing tests. |
 
 Plus the **[`apify-actor-commands`](commands/)** pack, which adds slash commands like `/create-actor` for guided Actor scaffolding.
 
@@ -99,6 +101,7 @@ More patterns and the full launch story in [Introducing Apify Agent Skills](http
 /plugin install apify-actor-development@apify-agent-skills
 /plugin install apify-actorization@apify-agent-skills
 /plugin install apify-integration-development@apify-agent-skills
+/plugin install actor-runtime@apify-agent-skills
 ```
 
 `apify-generate-output-schema` is deprecated and will be removed in a future release. Its functionality is now part of `apify-actor-development`.

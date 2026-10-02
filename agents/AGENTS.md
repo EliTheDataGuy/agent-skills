@@ -3,6 +3,7 @@
 You have additional SKILLs documented in directories containing a "SKILL.md" file.
 
 These skills are:
+ - actor-runtime -> "skills/actor-runtime/SKILL.md"
  - apify-actor-development -> "skills/apify-actor-development/SKILL.md"
  - apify-actorization -> "skills/apify-actorization/SKILL.md"
  - apify-integration-development -> "skills/apify-integration-development/SKILL.md"
@@ -12,6 +13,7 @@ IMPORTANT: You MUST read the SKILL.md file whenever the description of the skill
 
 <available_skills>
 
+actor-runtime: `Test and develop Apify Actors on a local Actor runtime instead of the Apify platform — install it via the Apify CLI, then load its version-matched skill with apify runtime skill. Use when building, running, debugging or testing an Actor locally.`
 apify-actor-development: `Create, modify, debug, and deploy Apify Actors, and write their input and output schemas. Use when building an Actor from scratch, changing or troubleshooting Actor code, generating or updating .actor schema files, or pushing an Actor to the Apify platform. To wrap an existing non-Actor project, use apify-actorization instead.`
 apify-actorization: `Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Use when migrating code to Apify, wrapping CLI tools as Actors, or adding Actor SDK to existing projects.`
 apify-integration-development: `Design and build an official Apify integration for a company's product - workflow-automation apps (Zapier/n8n-style), AI agent plugins (coding-agent skills+MCP bundles or OpenClaw/Hermes-style harnesses), AI framework packages (LangChain/LlamaIndex-style), or direct application clients via apify-client. Use when planning, creating, or reviewing an integration that exposes Apify Actors, runs, datasets, or key-value stores inside another product.`
