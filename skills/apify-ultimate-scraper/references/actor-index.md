@@ -113,14 +113,14 @@ Tiers: `apify` = Apify-maintained (always prefer), `community` = community-maint
 
 | Actor | Tier | Best for |
 |-------|------|----------|
-| danthedataman/company-hiring-ledger | community | Greenhouse/Lever/Ashby/Workable boards; new, changed, closed jobs |
+| danthedataman/company-hiring-ledger | community | Greenhouse/Lever/Ashby/Workable boards; snapshot comparison for new, changed, observed-closed jobs |
 | danthedataman/google-jobs-search-api | community | Google Jobs listings by query + location (first page) |
 
 ## Sports
 
 | Actor | Tier | Best for |
 |-------|------|----------|
-| danthedataman/ufcstats-fight-round-stats | community | UFC fight and round stats by event or fight |
+| danthedataman/ufcstats-fight-round-stats | community | UFC fight and round stats from completed event cards or fight URLs |
 | danthedataman/tennis-abstract-data-api | community | ATP/WTA career match logs, tournament draws |
 
 ## Google Maps
