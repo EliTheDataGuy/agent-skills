@@ -115,6 +115,8 @@ Tiers: `apify` = Apify-maintained (always prefer), `community` = community-maint
 |-------|------|----------|
 | danthedataman/company-hiring-ledger | community | Greenhouse/Lever/Ashby/Workable boards; snapshot comparison for new, changed, observed-closed jobs |
 | danthedataman/google-jobs-search-api | community | Google Jobs listings by query + location (first page) |
+| danthedataman/workday-career-ledger | community | Workday career sites; full-snapshot comparison for new, changed, observed-closed jobs |
+| danthedataman/dice-tech-jobs-ledger | community | Dice tech jobs by search or job URL; changes across runs |
 
 ## Sports
 
@@ -144,6 +146,7 @@ Tiers: `apify` = Apify-maintained (always prefer), `community` = community-maint
 | apify/google-trends-scraper | apify | trend data |
 | tri_angle/bing-search-scraper | apify | Bing SERP data |
 | danthedataman/google-ads-archive | community | Google Ads Transparency creatives by advertiser |
+| danthedataman/google-news-article-ledger | community | Google News searches, topics and publisher sites; new articles only against a saved full snapshot |
 
 ## Reviews (cross-platform)
 
@@ -212,6 +215,8 @@ Tiers: `apify` = Apify-maintained (always prefer), `community` = community-maint
 | janbuchar/github-contributors-scraper | community | GitHub contributors |
 | danthedataman/product-hunt-launch-ledger | community | Product Hunt daily/weekly/monthly leaderboard launches |
 | danthedataman/clutch-agency-directory | community | Clutch.co agencies: rates, ratings, headcount |
+| danthedataman/google-flights-fare-atlas | community | Google Flights fares and itineraries (one-way, round-trip, multi-city) |
+| danthedataman/substack-author-atlas | community | Substack authors by topic: profiles, publications, post metadata |
 
 ## Enrichment and contacts
 
@@ -222,3 +227,4 @@ Tiers: `apify` = Apify-maintained (always prefer), `community` = community-maint
 | apify/e-commerce-scraping-tool | apify | product data enrichment |
 | vdrmota/contact-info-scraper | community | contact extraction |
 | code_crafter/leads-finder | community | B2B leads |
+| danthedataman/uk-company-register-ledger | community | UK Companies House profiles, directors, PSCs, filings, charges |
